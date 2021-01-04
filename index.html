@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/css/styles.css" />
+
+    <!-- =====Box Icons for CSS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Brad O'Leary</title>
+  </head>
+
+  <body>
+    <!--===== Header =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Brad O'Leary</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <!--===== Home =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi, I'm <span class="home__title-color">Brad.</span><br />
+            I'm a Developer & Designer.
+          </h1>
+          <!-- <a href="#" class="button">Contact</a> -->
+        </div>
+        <div class="scroll-downs">
+          <div class="mousey">
+            <div class="scroller"></div>
+          </div>
+        </div>
+        <div class="home__social">
+          <a href="https://github.com/bradleyoleary" class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://dribbble.com/BradOleary" class="home__social-icon"
+            ><i class="bx bxl-dribbble"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/bradleyoleary/"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="mailto:bradley_oleary@outlook.com" class="home__social-icon"
+            ><i class='bx bx-envelope'></i
+          ></a>
+        </div>
+      </section>
+
+      <!--===== About =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="img/profilepic.png" alt="" />
+          </div>
+          <div>
+            <p class="about__text">
+              I'm a web developer with a strong passion for UX/UI Design. When
+              I’m not working, I enjoy photography, working with cars,
+              motorcycles, and pretty much anything with an engine. So, you'll
+              probably hear about that from me every once in a while.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Skills =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title-two">My Skills</h2>
+        <div class="skills-container">
+          <ul>
+            <li class="skills-transition">
+              <div class="icon-container one">
+                <img src="img/uxlogo.svg" alt="UI/UX Icon" />
+              </div>
+              <p class="skill-title">UI/UX Design</p>
+              <p class="featured-desc skill-dec">
+                Sketch <br />
+                Figma <br />Adobe Creative Suite<br />Balsamiq
+              </p>
+            </li>
+            <li class="skills-transition">
+              <div class="icon-container two">
+                <img src="img/codelogo.svg" alt="Web Development Icon" />
+              </div>
+              <p class="skill-title">Web Development</p>
+              <p class="featured-desc skill-dec">
+                HTML/CSS/Javascript <br />React <br />Node JS<br />MongoDB
+                <br />Firebase
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--===== Portfolio =====-->
+      <section class="portfolio" id="work">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-container">
+          <div class="portfolio-left">
+            <div class="inner">
+              <p class="subtitle">UI Design - Full Stack Development</p>
+              <p class="featured-title">QwikNews</p>
+              <p class="featured-desc">
+                QwikNews is a news application that focuses on quick and easy
+                media consumption.
+              </p>
+            </div>
+          </div>
+          <a href="/pages/qwiknews.html">
+            <img src="img/qwiknews.png" alt="QwikNews" />
+          </a>
+        </div>
+        <div class="portfolio-container">
+          <div class="portfolio-left">
+            <div class="inner">
+              <p class="subtitle">UX/UI Design</p>
+              <p class="featured-title">Bimmerpost Re-Design</p>
+              <p class="featured-desc">
+                An online marketplace for consumers looking to get authentic,
+                quality, curated used automotive parts and products.
+              </p>
+            </div>
+          </div>
+          <a href="/pages/bimmerpost.html">
+            <img src="img/bimmerpost.png" alt="Twitter Clone" />
+          </a>
+        </div>
+        <div class="portfolio-container">
+          <div class="portfolio-left">
+            <div class="inner">
+              <p class="subtitle">Full-Stack Development</p>
+              <p class="featured-title">E-Commerce Website</p>
+              <p class="featured-desc">
+                An e-commerce website that allows users to view, select, and
+                purchase a variety of wearable products. This was a group
+                project during my Full-Stack Web Development Bootcamp.
+              </p>
+            </div>
+          </div>
+          <a href="/pages/daswearables.html">
+            <img src="img/daswearables.png" alt="Twitter Clone" />
+          </a>
+        </div>
+        <!-- <div class="portfolio-container">
+          <div class="portfolio-left">
+            <div class="inner">
+              <p class="subtitle">Frontend Development</p>
+              <p class="featured-title">Twitter Clone</p>
+              <p class="featured-desc">
+                "Critter" is a clone of the highly popular social media website,
+                Twitter. This was a project during my bootcamp to hone in on my
+                frontend development skills.
+              </p>
+            </div>
+          </div>
+          <a href="#">
+            <img src="img/twitterclone.png" alt="Twitter Clone" />
+          </a>
+        </div> -->
+      </section>
+
+      <!--===== Contact Section =====-->
+      <!-- <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Enviar"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main> -->
+
+    <!--===== Footer =====-->
+    <footer class="footer">
+      <p class="footer__title">Lets Connect!</p>
+      <p class="footer__text">If you would like to collaborate on a project or chat, reach out to me! 😃</p>
+     <a title="Email - Brad O'Leary" class="footer__email"  target="_blank" href="mailto:bradley_oleary@outlook.com">bradley_oleary@outlook.com</a> 
+    </footer>
+
+    <!--===== Scroll Reveal Animation =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== Main JS File =====-->
+    <script src="src/main.js"></script>
+  </body>
+</html>
