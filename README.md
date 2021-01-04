@@ -1,2 +1,2 @@
 # Portfolio
-A portfolio containing my most recent and excited work!
+My portfolio containing my most recent and excited work!
