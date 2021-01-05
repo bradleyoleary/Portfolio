@@ -363,6 +363,10 @@ section {
   border-radius: 0.5rem;
 }
 
+.about__text {
+  padding-bottom: 10px;
+}
+
 /* ===== Skills Section =====*/
 
 .subtitle {
@@ -653,6 +657,8 @@ td {
 
 .iFrame {
   border: none;
+  width: 20em;
+  height: 15em;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.35);
   margin: 20px 0;
 }
@@ -689,5 +695,13 @@ td {
     left: 80px;
     height: 50px;
     width: 50px;
+  }
+
+  .iFrame {
+    border: none;
+    width: 50em;
+    height: 32em;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.35);
+    margin: 20px 0;
   }
 }
