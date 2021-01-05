@@ -37,8 +37,8 @@ const sr = ScrollReveal({
 sr.reveal(".home__title", {});
 sr.reveal(".scroll-downs", { delay: 400 });
 sr.reveal(".button", { delay: 200 });
-// sr.reveal(".home__img", { delay: 400 });
 sr.reveal(".home__social-icon", { interval: 200 });
+sr.reveal(".section-title", {});
 
 /*Scroll About Animation*/
 sr.reveal(".about__img", {});
@@ -46,6 +46,7 @@ sr.reveal(".about__subtitle", { delay: 400 });
 sr.reveal(".about__text", { delay: 400 });
 
 /*Scroll Skills Animation*/
+sr.reveal(".section-title-two", {});
 sr.reveal(".skill-title", {});
 sr.reveal(".skill-dec", {});
 sr.reveal(".skills-transition", { interval: 200 });
@@ -54,6 +55,3 @@ sr.reveal(".icon-container", { interval: 400 });
 /*Scroll Portfolio Animation*/
 sr.reveal(".portfolio-left", { interval: 200 });
 sr.reveal(".portfolio-container", { interval: 300 });
-
-/*Scroll Contact Animation*/
-// sr.reveal(".contact__input", { interval: 200 });

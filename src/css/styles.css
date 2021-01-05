@@ -277,7 +277,12 @@ section {
   background-color: var(--first-color);
 }
 .nav__logo {
-  color: var(--second-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  position: relative;
 }
 .nav__toggle {
   color: var(--second-color);
@@ -471,6 +476,15 @@ section {
 
 /* ===== Media Queries =====*/
 @media screen and (min-width: 768px) {
+  .nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 38px;
+    position: relative;
+  }
+
   .skills-container ul {
     display: -ms-grid;
     display: grid;
@@ -594,8 +608,13 @@ section {
 
 /* ===== Project Page Layout =====*/
 
+.project-nav-logo {
+  display: none;
+}
+
 .projectPageTitle {
-  padding-top: 2em;
+  padding-top: 0.5em;
+  letter-spacing: 0.1em;
   text-align: center;
 }
 
@@ -606,25 +625,54 @@ section {
 
 .projectText {
   text-align: initial;
-  padding-bottom: 1em;
+  padding-bottom: 1.8em;
 }
 
 .projectTable {
   display: flex;
   justify-content: center;
-  padding: 6em 0;
+  padding: 5em 0;
+}
+
+th {
+  display: table-cell;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 129.69%;
+  letter-spacing: 0.03em;
+  padding-bottom: 20px;
+}
+td {
+  display: table-cell;
+  width: 200px;
+  line-height: 185%;
+  letter-spacing: 0.03em;
+}
+
+.iFrame {
+  border: none;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.35);
+  margin: 20px 0;
+}
+
+.projectImageFullPage {
+  width: 100vw;
 }
 
 .projectImageSmall {
   width: 30em;
   margin: 0 auto;
-  padding: 2em 0;
+  -webkit-box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.2);
 }
 
 .projectImageMedium {
   width: 50em;
   margin: 0 auto;
-  padding: 2em 0;
+  -webkit-box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.2);
 }
 
 /* ===== Media Queries for Project Pages =====*/
@@ -632,5 +680,14 @@ section {
 @media screen and (min-width: 768px) {
   .projectPageMain {
     padding: 2em 8em;
+  }
+
+  .project-nav-logo {
+    display: flex;
+    position: relative;
+    top: 42px;
+    left: 80px;
+    height: 50px;
+    width: 50px;
   }
 }
