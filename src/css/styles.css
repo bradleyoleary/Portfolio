@@ -577,11 +577,8 @@ section {
     margin-left: 2em;
   }
 
-  .contact__form {
-    width: 360px;
-  }
-  .contact__container {
-    justify-items: center;
+  .portfolio-img {
+    height: 35em;
   }
 
   .portfolio {
