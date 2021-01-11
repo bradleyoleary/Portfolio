@@ -35,15 +35,15 @@ const sr = ScrollReveal({
 
 /*Scroll Home Animation*/
 sr.reveal(".home__title", {});
-sr.reveal(".scroll-downs", { delay: 400 });
-sr.reveal(".button", { delay: 200 });
+sr.reveal(".scroll-downs", { delay: 300 });
+sr.reveal(".button", { delay: 100 });
 sr.reveal(".home__social-icon", { interval: 200 });
 sr.reveal(".section-title", {});
 
 /*Scroll About Animation*/
 sr.reveal(".about__img", {});
-sr.reveal(".about__subtitle", { delay: 400 });
-sr.reveal(".about__text", { delay: 400 });
+sr.reveal(".about__subtitle", { delay: 300 });
+sr.reveal(".about__text", { delay: 300 });
 
 /*Scroll Skills Animation*/
 sr.reveal(".section-title-two", {});

@@ -593,7 +593,8 @@ section {
   .portfolio-left {
     display: -ms-grid;
     display: grid;
-    place-content: center;
+    place-content: left;
+    align-items: center;
   }
 }
 
