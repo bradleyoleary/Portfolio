@@ -34,24 +34,24 @@ const sr = ScrollReveal({
 });
 
 /*Scroll Home Animation*/
-sr.reveal(".home__title", {});
-sr.reveal(".scroll-downs", { delay: 300 });
-sr.reveal(".button", { delay: 100 });
-sr.reveal(".home__social-icon", { interval: 200 });
-sr.reveal(".section-title", {});
+sr.reveal(".home__title", { reset: false });
+sr.reveal(".scroll-downs", { delay: 300, reset: false });
+sr.reveal(".button", { delay: 100, reset: false });
+sr.reveal(".home__social-icon", { interval: 200, reset: false });
+sr.reveal(".section-title", { reset: false });
 
 /*Scroll About Animation*/
-sr.reveal(".about__img", {});
-sr.reveal(".about__subtitle", { delay: 300 });
-sr.reveal(".about__text", { delay: 300 });
+sr.reveal(".about__img", { reset: false });
+sr.reveal(".about__subtitle", { delay: 300, reset: false });
+sr.reveal(".about__text", { delay: 300, reset: false });
 
 /*Scroll Skills Animation*/
-sr.reveal(".section-title-two", {});
-sr.reveal(".skill-title", {});
-sr.reveal(".skill-dec", {});
-sr.reveal(".skills-transition", { interval: 200 });
-sr.reveal(".icon-container", { interval: 400 });
+sr.reveal(".section-title-two", { reset: false });
+sr.reveal(".skill-title", { reset: false });
+sr.reveal(".skill-dec", { reset: false });
+sr.reveal(".skills-transition", { interval: 200, reset: false });
+sr.reveal(".icon-container", { interval: 400, reset: false });
 
 /*Scroll Portfolio Animation*/
-sr.reveal(".portfolio-left", { interval: 200 });
-sr.reveal(".portfolio-container", { interval: 300 });
+sr.reveal(".portfolio-left", { interval: 200, reset: false });
+sr.reveal(".portfolio-container", { interval: 300, reset: false });
