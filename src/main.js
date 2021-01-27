@@ -11,7 +11,22 @@ const showMenu = (toggleId, navId) => {
 };
 showMenu("nav-toggle", "nav-menu");
 
-/*===== Active & Remove Menu =====*/
+/*===== Scroll, Active, & Remove Menu =====*/
+const links = document.querySelectorAll(".nav__link");
+const sections = document.querySelectorAll("section");
+
+function changeLinkState() {
+  let index = sections.length;
+
+  while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+
+  links.forEach((link) => link.classList.remove("active"));
+  links[index].classList.add("active");
+}
+
+changeLinkState();
+window.addEventListener("scroll", changeLinkState);
+
 const navLink = document.querySelectorAll(".nav__link");
 
 function linkAction() {

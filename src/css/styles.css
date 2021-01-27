@@ -267,6 +267,7 @@ section {
 .nav__link:hover {
   position: relative;
 }
+
 .nav__link:hover::after {
   position: absolute;
   content: "";
@@ -276,6 +277,7 @@ section {
   top: 2rem;
   background-color: var(--first-color);
 }
+
 .nav__logo {
   display: flex;
   justify-content: center;
@@ -300,6 +302,10 @@ section {
   top: 2rem;
   background-color: var(--first-color);
 }
+
+/* .active:visited {
+  color: var(--first-color);
+} */
 
 /*=== Show menu ===*/
 .show {
