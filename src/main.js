@@ -70,3 +70,4 @@ sr.reveal(".icon-container", { interval: 400, reset: false });
 /*Scroll Portfolio Animation*/
 sr.reveal(".portfolio-left", { interval: 200, reset: false });
 sr.reveal(".portfolio-container", { interval: 300, reset: false });
+sr.reveal(".main-portfolio-container", { interval: 300, reset: false });
