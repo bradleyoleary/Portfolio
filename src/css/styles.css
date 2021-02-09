@@ -413,6 +413,15 @@ section {
   color: var(--second-color);
 }
 
+.section-subtitle {
+  position: relative;
+  font-weight: bold;
+  color: var(--second-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+
 .featured-title {
   font-weight: bold;
   color: var(--first-color);
